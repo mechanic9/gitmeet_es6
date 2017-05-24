@@ -1,0 +1,130 @@
+/*Yellow = #FFF9AA*/
+/*Blue = #5349BB*/
+
+/*background-color: #F2D0A1*/
+
+$font-stack:    Helvetica, sans-serif;
+$pretty-blue: #5349BB;
+$pretty-peach: #F2D0A1;
+$pretty-purp: #6664a2;
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.boxing
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color: $pretty-peach;
+  padding-top: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app
+{
+  background-color: #fff;
+  margin: auto;
+  width: 600px;
+  height: 620px;
+}
+
+.title
+{
+  width: 100%;
+  height: 5%;
+  text-align: center;
+  /*outline: 1px solid black;*/
+  padding-top: 5px;
+  font-size: 20px;
+  color: $pretty-purp;
+  font-variant: small-caps;
+}
+
+.search-field
+{
+  /*outline: 1px solid blue;*/
+  width: 100%;
+  height: 10%;
+  position: relative;
+}
+
+input[type="search"]
+{
+  position: relative;
+  width: 50%;
+  /*outline: 1px solid black;*/
+  margin: auto;
+  border: none;
+}
+
+.profile
+{
+  padding: 15px;
+  /*outline: 1px solid red;*/
+  width: 100%;
+  height: 70%;
+  text-align: center;
+}
+
+.profile {
+  .avatar
+  {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.profile 
+{
+  .name
+  {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+.profile 
+{
+  .location
+  {
+    /*color: ;*/
+    font-variant: small-caps;
+  }
+}
+.user-stats
+{
+  position: relative;
+  background-color: $pretty-blue;
+  width: 100%;
+  height: 10%;
+  bottom: 0px;
+}
+
+.user-stats 
+{
+  .sect
+  {
+    /*outline: 1px solid green;*/
+    background-color: $pretty-blue;
+    width: 33%;
+    float: left;
+    text-align: center;
+  }
+}
+
+.user-stats 
+{
+  .sect 
+  {
+    .num
+    {
+      font-size: 24px;
+    }
+  }
+}
